@@ -1,4 +1,4 @@
-CREATTE DATABASE registration;
+CREATE DATABASE registration;
 
 CREATE TABLE registration (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -8,6 +8,6 @@ CREATE TABLE registration (
     phone VARCHAR(20),
     fatherName VARCHAR(100),
     motherName VARCHAR(100),
-    address VARCHAR(255),  -- Changed from TEXT to VARCHAR(255)
+    address VARCHAR(255),
     gender VARCHAR(10)
 );
