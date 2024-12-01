@@ -11,12 +11,12 @@
         <h1>Clinic Management System</h1>
         <h2>Patient Registration</h2>
         <img src="logo.png" alt="Clinic Logo"  class="logo">
-        <form action="submit.php" method="POST">
+        <form action="datastorage.php" method="post">
             <div class="form-group">
-                <label for="first_name">Patient Name</label>
+                <label for="firstName">Patient Name</label>
                 <div class="input-group">
-                    <input type="text" name="first_name" id="first_name" placeholder="Enter First Name" required>
-                    <input type="text" name="last_name" id="last_name" placeholder="Enter Last Name" required>
+                    <input type="text" name="firstName" id="firstName" placeholder="Enter First Name" required>
+                    <input type="text" name="lastName" id="lastName" placeholder="Enter Last Name" required>
                 </div>
             </div>
             <div class="form-group">
@@ -29,8 +29,8 @@
             <div class="form-group">
                 <label for="parents_info">Parents Information</label>
                 <div class="input-group">
-                    <input type="text" name="father_name" id="father_name" placeholder="Father Name" required>
-                    <input type="text" name="mother_name" id="mother_name" placeholder="Mother Name" required>
+                    <input type="text" name="fatherName" id="fatherName" placeholder="Father Name" required>
+                    <input type="text" name="motherName" id="motherName" placeholder="Mother Name" required>
                 </div>
             </div>
             <div class="form-group">
@@ -40,10 +40,10 @@
             <div class="form-group">
                 <label for="gender">Gender</label>
                 <select name="gender" id="gender" required>
-                    <option value="">Select Gender</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select><br>
             </div>
             <div class="form-buttons">
                 <button type="reset" class="cancel-btn">Cancel</button>
@@ -51,5 +51,6 @@
             </div>
         </form>
     </div>
+    
 </body>
 </html>
