@@ -1,3 +1,4 @@
+//mySQL Database for 
 CREATE DATABASE registration;
 
 CREATE TABLE registration (
